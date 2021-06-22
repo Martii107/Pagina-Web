@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: #ffffff;
+  }
+  
+  .h1 {
+    font-family: 'Times New Roman', Times, serif;
+    list-style: square;
+    padding: 50;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+
+  .h2 {
+    font-family: 'Times New Roman', Times, serif;
+    list-style: square;
+    padding: 50;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+
+  nav {
+    padding: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  nav ul {
+    list-style: square;
+    padding: 50;
+    margin: 0;
+    background: rgb(0, 0, 0);
+  }
+  nav li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  nav li a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    color: black;
+  }
+
+  * .footer {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fce5e5;
+  }
+
+  .footer {
+    width: 100%;
+    background: #fce5e5;
+    color: #000000;
+    padding-top: 40px;
+  }
+
+  .container-footer-all {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #fce5e5;
+  }
+
+  .container-body {
+    display: flex;
+    justify-content: space-between;
+    background: #fce5e5;
+  }
+
+  .column1 {
+    max-width: 600px;
+  }
+
+  .column1 h3 {
+    font-size: 22px;
+  }
+
+  .column1 p {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 20px;
+  }
+
+  .column2 {
+    max-width: 600PX;
+    margin-top: 20px;
+  }
+
+  .column2 h3 {
+    font-size: 22px;
+  }
+
+  .row {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .row img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    color: #000000;
+    margin-right: 70px;
+  }

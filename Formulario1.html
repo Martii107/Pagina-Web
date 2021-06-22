@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+		<h1 class= "h1" align="center" style="color: rgb(0, 0, 0);"><b>COVI</b></h1>
+        <h2 class= "h2" align="center" style="color: rgb(0, 0, 0);"><b>INDUMENTARIA</b></h1>
+	</header>
+    <br>
+    <br>
+    <b align="center">FORMULARIO DE CONSULTA</b>
+    <br>
+    <br>
+    <br>
+    <form action="mailto:covi.indumentaria@outlook.com" method="post" enctype="text/plain">
+        <p style="color: #d38f8f;">Escriba aquí su nombre:</p>
+        <input type="text" name="Nombre">
+        <br>
+        <br>
+        <p style="color: #d38f8f;">Ingrese su contraseña:</p>
+        <input type="password" name="contraseña" >
+        <br>
+        <br>
+        <br>
+        <textarea name="comentario" rows="10" cols="40">Escribe tu consulta....</textarea>
+        <br>
+        <br>
+        <br>
+        <select name="Opciones">
+            <option value ="Hardware">Hombre</option>
+            <option value ="Software">Mujer</option>
+            <option value ="Mantenimiento">Niños</option>
+            <option value="Reparación">Asesorias</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
